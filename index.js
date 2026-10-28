@@ -5,8 +5,6 @@ const rl = readline.createInterface({
 }); 
 
 rl.question("Entrez un nombre:", (answer) =>{
-    const number = Number (answer);
-    console.log("le nombre est :",number);    
-
-rl.close();
-});
+    const number = Number(answer);
+    console.log("Le nombre est :", number);
+}) 
